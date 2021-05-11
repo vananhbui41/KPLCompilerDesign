@@ -12,7 +12,7 @@
 
 /******************************************************************/
 
-int main(int argc, char *argv[]) {
+/*int main(int argc, char *argv[]) {
   if (argc <= 1) {
     printf("parser: no input file.\n");
     return -1;
@@ -24,4 +24,7 @@ int main(int argc, char *argv[]) {
   }
     
   return 0;
+}*/
+int main(){
+  compile("tests/example3.kpl");
 }
